@@ -20,7 +20,7 @@ explicitamente um tipo de dados, o Dart usa a **inferência de tipo** para tenta
 
 	  bool masculino = true;
 	
-- **`dynamic` =>** declara uma variável como sendo de qualquer tipo e ter o seu valor mudado
+- **`dynamic` =>** declara uma variável como sendo de qualquer tipo e seu valor pode ser mudado
 
       dynamic algo = '10';      <= tipo String
       algo = 10;                <= tipo int
