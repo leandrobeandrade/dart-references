@@ -1,6 +1,6 @@
 void main() {
 
-	String nome = 'Fulano';
+  String nome = 'Fulano';
   bool masculino = true;
   int idade = 18;
   double peso = 64.30;
