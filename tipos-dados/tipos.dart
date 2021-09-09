@@ -1,22 +1,23 @@
-// TIPOS
- 
-// String  => declara uma variável como sendo do tipo string
- 
- 	String name = 'Fulano';
- 	
-// int 	=> declara uma variável como sendo do tipo inteiro
+void main() {
 
-	int age = 20;
+	String nome = 'Fulano';
+  bool masculino = true;
+  int idade = 18;
+  double peso = 64.30;
+  var altura = 1.72;            	// tipo imutável
+  dynamic linguagens = 'Dart';
+	final nums = 123;								// valor imutável
+
+	print(nome);										// Fulano
+  print(masculino);								// true
+  print(idade);										// 18
+  print(peso);										// 64.3
+  print(altura);									// 1.72
+  print(linguagens);							// Dart
+	print(nums);										// 123
+
+  linguagens = ['Dart', 'TypeScript'];
+  print(linguagens);							// ['Dart', 'TypeScript']
 	
-// double  => declara uma variável como sendo do tipo ponto flutuante
-
-	double value = 10.5;
-	
-// bool 	=> declara uma variável como sendo do tipo booleano
-
-	bool male = true;
-	
-// dynamic => declara uma variável como sendo de qualquer tipo
-
-  dynamic whatever = '10';
-  whatever = 10;
+	nums = 456;											// ERRO
+}
