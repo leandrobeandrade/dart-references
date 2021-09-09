@@ -4,6 +4,8 @@ Referências sobre a linguagem de programação baseada em scripts **`Dart`** cr
 
 Embora neste momento sua maior aplicação seja mobile, já é possível encontrar páginas web sendo totalmente desenvolvidas em Dart, assim também como aplicações feitas em Dart rodando em servidores **(linguagem como back-end)**.
 
+> Todos os códigos deste repositório podem ser testados neste link: [Replit](https://replit.com/@leandrobeandrade/Dart-Lessons#main.dart)
+
 ## Principais características:
 
  - Fortemente tipada
