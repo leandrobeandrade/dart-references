@@ -19,5 +19,5 @@ void main() {
   linguagens = ['Dart', 'TypeScript'];
   print(linguagens);							// ['Dart', 'TypeScript']
 	
-	nums = 456;											// ERRO
+	nums = 456;											// ERRO 
 }
