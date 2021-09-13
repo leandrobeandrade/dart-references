@@ -75,7 +75,7 @@ Em Dart também é possível passar funções anônimas como parâmetro de outra
     
 ## Função encurtada
 
-Em dart também é possível encurtar a declaração de uma função se a mesma possuir apenas uma linha.
+Em dart também é possível encurtar a declaração de uma função se a mesma possuir apenas uma linha *(notação arow function)*.
 
     int funcEnc(int a) => a + a;
     
