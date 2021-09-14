@@ -16,12 +16,12 @@ class Gerente extends Funcionario {
 
   @override
   double calculaBonus() {
-    return this.salario * 0.20;      // Mesmo nome, mesmo tipo de retorno e parâmetros (se existirem) com valor de retorno diferente
+    return this.salario * 0.20;      // Mesmo nome, mesmo tipo de retorno e parâmetros (se existirem), mas, com o interior diferente
   }
 }
 
 // SOBRECARGA DE MÉTODOS
-public class Valores extends Funcionario {
+class Valores extends Funcionario {
   
   Valores(String nome, String cpf, double salario) : super(nome, cpf, salario);
   
@@ -29,7 +29,7 @@ public class Valores extends Funcionario {
     return num1 + num2;
   }
 
-  double calc(double num1, double num2) {   // Mesmo nome, retornos, parâmetros e valores diferentes
+  double calc(double num1, double num2) {   // Mesmo nome, mas, com tipo de retorno, tipo de parâmetros e interior diferentes
     return num1 * num2;
   }
 }
