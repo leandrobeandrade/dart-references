@@ -47,7 +47,7 @@ Assim como em outras linguagens Dart também possibilita os paradigmas da orient
 
 - Herança
 - Classe Abstrata
-- Polimorfismo (sobrescrita e sobrecaraga de método)
+- Polimorfismo (sobrescrita e sobrecarga de método)
 - Injeção de Dependência
 - Modificadores de acesso
 - Getters/Setters
