@@ -21,8 +21,7 @@ class Animal {                          // Classe Genérica
 class Cachorro extends Animal {         // Classe especializada herdando genérica
   int fofura;
 
-  Cachorro(String nome, double peso, String som, this.fofura) : 
-    super(nome, peso, som);
+  Cachorro(String nome, double peso, String som, this.fofura) : super(nome, peso, som);
 
   void brincar() {
     fofura += 10;
@@ -34,8 +33,7 @@ class Cachorro extends Animal {         // Classe especializada herdando genéri
 class Gato extends Animal {             // Classe especializada herdando genérica
   bool amigavel;
 
-  Gato(String nome, double peso, String som, this.amigavel) : 
-    super(nome, peso, som);
+  Gato(String nome, double peso, String som, this.amigavel) : super(nome, peso, som);
 
   void estaAmigavel() {
     if(this.amigavel) print('Está amigável: SIM');
