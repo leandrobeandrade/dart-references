@@ -21,9 +21,9 @@ class GetterSetter {
 void main() {
   GetterSetter getset = GetterSetter('Ciclano');
   print(getset.nome);     // Ciclano
-  getset.idade = 18;      // A pessoa Ciclano possui a idade 18.
-  print('A pessoa ${getset.nome} possui a idade ${getset.idade}.');
+  getset.idade = 18;      // Seta uma idade
+  print('A pessoa ${getset.nome} possui a idade ${getset.idade}.');       // A pessoa Ciclano possui a idade 18.
   
   getset.salario$ = 1.532;
-  print('A pessoa ${getset.nome} possui um salário de ${getset.salario$}');
+  print('A pessoa ${getset.nome} possui um salário de ${getset.salario$}.');       // A pessoa Ciclano possui um salário de 1.532.
 }
