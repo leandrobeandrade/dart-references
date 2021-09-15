@@ -20,21 +20,6 @@ class Gerente extends Funcionario {
   }
 }
 
-// SOBRECARGA DE MÉTODOS
-class Valores extends Funcionario {
-  
-  Valores(String nome, String cpf, double salario) : super(nome, cpf, salario);
-  
-  int calc(int num1, int num2) {
-    return num1 + num2;
-  }
-
-  double calc(double num1, double num2) {   // Mesmo nome, mas, com tipo de retorno, tipo de parâmetros e interior diferentes
-    return num1 * num2;
-  }
-}
-
-
 void main() {
   Funcionario funcionario = Funcionario('Fulano', 11111111111, 3.530);
   print(funcionario);                     // Fulano 11111111111 3.53
@@ -43,10 +28,4 @@ void main() {
   Gerente gerente = Gerente('Ciclano', 22222222222, 5.610, 'Engenharia');
   print(gerente);                         // Ciclano 22222222222 5.61 Engenharia
   print(gerente.calculaBonus());          // 1.122
- 
-  Valores valores = Valores('Beltrano', '33333333333', 2.150);
-  print(valores);                         // Beltrano 33333333333, 2.15
-  print(valores.calc(10, 10));            // 20
-  print(valores.calc(2.3, 4.1));          // 9.43
-  print(valores.calculaBonus());          // 0.215 (Calculou com base no valor 0.10, não foi sobrescrito o método da classe Funcionario na Valores)
 }
