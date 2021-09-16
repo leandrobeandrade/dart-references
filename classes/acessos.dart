@@ -1,30 +1,30 @@
 class Mod {
-  static int vezes;             // Não precisa instanciar o objeto, a propriedade é da classe
-  static const maisVezes = 10;  // Não pode ter o valor modificado
+  static int vezes;                 // Não precisa instanciar o objeto, a prop é da classe
+  static const maisVezes = 10;      // Não pode ter o valor modificado
 }
 
 class Mutavel {
-  void printa() {
-    print('Muda');
-  }
+  String nome;
+
+  Mutavel(this.nome);
 }
 
-class ClasseImutavel {
-  void printa() {
-    print('Não muda');
-  }
+class Imutavel {
+  String nome;
+
+  Imutavel(this.nome);
 }
 
-abstract class Abs {            // Não pode ser instanciada apenas herdada
+abstract class Abs {                // Não pode ser instanciada apenas herdada
   void abst() {
     print('Classe abstrata!');
   }
 
-  void zero();                  // metodo abstrato, somente assinatura
+  void zero();                      // metodo abstrato, somente assinatura
 } 
 
 class Inherit extends Abs {
-  void zero() {                 // implementação método abstrato obrigatório
+  void zero() {                     // implementação método abstrato obrigatório
     print('algo');
   }
 
@@ -40,18 +40,20 @@ void main() {
   print(Mod.vezes);
 
   print(Mod.maisVezes);
-  // Mod.maisVezes = 33;      // ERRRO => não possui setter
+  // Mod.maisVezes = 33;    // ERRRO => não possui setter
+  
 
-  Mutavel mutavel = Mutavel();
-  mutavel.printa();
+  Mutavel mutavel = Mutavel('Fulano');
+  print(mutavel.nome);    // Fulano
 
-  mutavel = Mutavel();        // OK
-  mutavel.printa();
+  mutavel = Mutavel('Beltrano');    // OK => 2 instâncias
+  print(mutavel.nome);    // Beltrano
 
-  final ClasseImutavel clImut = ClasseImutavel();
-  clImut.printa();
+  final Imutavel imutavel = Imutavel('Fulano');
+  print(imutavel.nome);    // Fulano
 
-  // clImut = ClasseImutavel();   // ERRRO => não pode ter 2 instâncias
+  imutavel = IMutavel('Beltrano');   // ERRO => não pode ter 2 instâncias
+  
 
   Inherit inherint = Inherit();
   inherint.zero();
