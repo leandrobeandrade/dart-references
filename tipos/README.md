@@ -4,7 +4,7 @@ O Dart é `tipado estaticamente`, o que significa que cada variável no Dart tem
 não pode ser alterado quando você executa o programa. Isso contrasta com linguagens como Python e JavaScript, que são tipados dinamicamente. Se você não especificar
 explicitamente um tipo de dados, o Dart usa a **inferência de tipo** para tentar determiná-lo, assim como fazem as linguagens Swift e Kotlin por exemplo.
 
-- **`Tipo String` =>** declara uma variável como sendo do tipo string
+- **`String` =>** declara uma variável como sendo do tipo string
  
  	  String nome = 'Fulano';
  	
