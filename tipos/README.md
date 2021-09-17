@@ -1,4 +1,4 @@
-# Tipos de Dados em DART
+# Tipos de Dados em Dart
 
 O Dart é `tipado estaticamente`, o que significa que cada variável no Dart tem um tipo que deve ser conhecido quando você compila o código. O tipo de variável 
 não pode ser alterado quando você executa o programa. Isso contrasta com linguagens como Python e JavaScript, que são tipados dinamicamente. Se você não especificar
