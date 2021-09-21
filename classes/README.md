@@ -6,9 +6,9 @@ código.
 
 **Observações:** 
 
-| Em Dart não existe a necessidade de se utilizar a palavra reservada **`new`** para instanciar uma classe.
+> Em Dart não existe a necessidade de se utilizar a palavra reservada **`new`** para instanciar uma classe.
 
-| Existem várias formas de se implementar o construtor de uma classe em Dart.
+> Existem várias formas de se implementar o construtor de uma classe em Dart.
 
 Exemplo simples de implementação de uma classe em Dart:
 
