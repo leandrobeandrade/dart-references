@@ -1,6 +1,6 @@
 # Funções em Dart
 
-Funções em Dart como em praticamente todas as linguagens de programação são pequenos pedaços de códigos reutilizáveis em diversas partes da aplicação.
+Funções em Dart como em qualquer linguagem que possui o paradigma `funcional`, são pequenos pedaços de códigos reutilizáveis em diversas partes da aplicação.
 
 Para se declarar uma função em Dart, primeiro decalara-se o tipo do retorno que a função irá possuir *(se não houver um retorno declara-se a função como sendo do tipo `void`, ou, simplesmente omite-se o tipo)*, depois declrara-se o nome da variável *(padrão adotado `camel-case`)*, seguido dos parâmetros ou não da função e o seu corpo entre chaves.
 
@@ -13,7 +13,7 @@ Para se declarar uma função em Dart, primeiro decalara-se o tipo do retorno qu
     
  ## Função com parâmetros
  
- Em dart os parâmetros das funções são tipados, previnindo assim futuras inconsistências de implementações de código.
+ Em Dart os parâmetros das funções são tipados, previnindo assim futuras inconsistências de implementações de código.
  
     void funcInt(int a) {
       print(a + a);
@@ -75,7 +75,7 @@ Em Dart também é possível passar funções anônimas como parâmetro de outra
     
 ## Função encurtada
 
-Em dart também é possível encurtar a declaração de uma função se a mesma possuir apenas uma linha *(notação arrow function)*.
+Em Dart também é possível encurtar a declaração de uma função se a mesma possuir apenas uma linha *(notação arrow function)*.
 
     int funcEnc(int a) => a + a;
     
