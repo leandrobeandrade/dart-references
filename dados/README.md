@@ -41,10 +41,21 @@ durante uma chamada forEach ou putIfAbsent. Modificar o mapa durante a iteraçã
 Geralmente, não é permitido modificar a igualdade das chaves (e, portanto, não seu hashcode) enquanto elas estão no mapa. Alguns subtipos especializados podem 
 ser mais permissivos e, nesse caso, devem documentar esse comportamento.
 
-**Exemplo de Map**
+**Exemplo de Map literal**
 
-    Map<String, dynamic> users = Map();
-    users['nome'] = 'Fulano';
-    users['idade'] = 35;
-    users['peso'] = 73.40;
-    print(users);   // {Fulano 35 73.4}
+    Map<String, dynamic> carro = {
+      'marca': 'iqbalhood',
+      'valor': 35.653
+    };
+
+    print(carro);
+    print(carro['marca']);
+    print(carro['valor']);
+
+**Exemplo de Map instânciado**
+
+    Map<String, dynamic> usuarios = Map();
+    usuarios['nome'] = 'Fulano';
+    usuarios['idade'] = 35;
+    usuarios['peso'] = 73.40;
+    print(usuarios);   // {Fulano 35 73.4}
