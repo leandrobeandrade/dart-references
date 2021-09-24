@@ -27,5 +27,8 @@ void main() {
   pessoas['Beltrano'] = MapPessoas(48);
   pessoas['Ciclano'] = MapPessoas(19);
   print(pessoas.keys);    // (Beltrano, Ciclano)
-  print(pessoas.values);  // ??????
+  
+  for (MapPessoas pesssoa in pessoas) {
+    print(pessoas.idade);   // 48 19
+  }
 }
