@@ -44,7 +44,7 @@ ser mais permissivos e, nesse caso, devem documentar esse comportamento.
 **Exemplo de Map literal**
 
     Map<String, dynamic> carro = {
-      'marca': 'iqbalhood',
+      'marca': 'Fiat',
       'valor': 35.653
     };
 
