@@ -28,7 +28,7 @@ void main() {
   pessoas['Ciclano'] = MapPessoas(19);
   print(pessoas.keys);    // (Beltrano, Ciclano)
   
-  for (MapPessoas pesssoa in pessoas) {
-    print(pessoas.idade);   // 48 19
+  for (var pesssoa in pessoas.values) {
+    print(pessoa.idade);   // 48 19
   }
 }
